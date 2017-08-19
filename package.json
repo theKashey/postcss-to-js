@@ -1,0 +1,29 @@
+{
+  "name": "postcss-to-js",
+  "version": "0.0.2",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theKashey/postcss-to-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/theKashey/postcss-to-js",
+  "dependencies": {
+    "postcss": "^6.0.9"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "6.26.0",
+    "babel-register": "6.26.0",
+    "babel-preset-latest": "6.24.1"
+  },
+  "@std/esm": {
+    "esm": "all",
+    "cjs": "all"
+  }
+}
