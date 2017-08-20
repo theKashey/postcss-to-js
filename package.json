@@ -1,6 +1,6 @@
 {
   "name": "postcss-to-js",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
@@ -10,17 +10,18 @@
     "type": "git",
     "url": "https://github.com/theKashey/postcss-to-js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Anton Korzunov (thekashey@gmail.com)",
+  "license": "MIT",
   "homepage": "https://github.com/theKashey/postcss-to-js",
   "dependencies": {
     "postcss": "^6.0.9"
   },
   "devDependencies": {
+    "@std/esm": "^0.5.1",
     "babel-cli": "^6.26.0",
     "babel-core": "6.26.0",
-    "babel-register": "6.26.0",
-    "babel-preset-latest": "6.24.1"
+    "babel-preset-env": "^1.6.0",
+    "babel-register": "6.26.0"
   },
   "@std/esm": {
     "esm": "all",

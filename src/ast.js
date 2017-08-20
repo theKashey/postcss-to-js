@@ -61,7 +61,8 @@ const buildAst = (CSS) => {
         const Rule = {
           media: getAtRule(rule),
           postFix: getPostfix(selector),
-          decl: []
+          decl: [],
+          ownProps: []
         };
         rule.walkDecls(delc => {
           Rule.decl.push(delc);

@@ -50,6 +50,7 @@ ul {
 }
 
 ul:hover {
+ --css-to-js-mixin: "#main";
  border:2px;
 }
 
